@@ -1,7 +1,9 @@
 function Courses() {
   return (
-    <main>
-      <div className="container">Courses</div>
+    <main className="pt-4">
+      <div className="container">
+        <h1 className="fs-2">Courses</h1>
+      </div>
     </main>
   );
 }
