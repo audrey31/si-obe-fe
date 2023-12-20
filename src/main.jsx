@@ -2,6 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Courses from "./Courses.jsx";
 import Syllabus from "./Syllabus.jsx";
+import SyllabusCreate from "./SyllabusCreate.jsx";
+import SyllabusEdit from "./SyllabusEdit.jsx";
+import CoursesCreate from "./CoursesCreate.jsx";
+import CoursesEdit from "./CoursesEdit.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,6 +21,22 @@ const router = createBrowserRouter([
   {
     path: "/syllabus",
     element: <Syllabus />,
+  },
+  {
+    path: "/syllabus/edit",
+    element: <SyllabusEdit />,
+  },
+  {
+    path: "/syllabus/create",
+    element: <SyllabusCreate />,
+  },
+  {
+    path: "/courses/create",
+    element: <CoursesCreate />,
+  },
+  {
+    path: "/courses/edit",
+    element: <CoursesEdit />,
   },
 ]);
 
