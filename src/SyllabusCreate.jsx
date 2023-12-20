@@ -14,7 +14,7 @@ function SyllabusCreate() {
           <div className="card-body p-3">
             <div className="mb-3">
               <label htmlFor="input" className="form-label">
-                    Study Program
+                    Course
               </label>
               <select class="form-select" aria-label="Default select example">
                 <option selected>Choose the course</option>
